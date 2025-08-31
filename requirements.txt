@@ -1,22 +1,15 @@
-# Core
 streamlit>=1.18.0
 langchain>=0.3.27
 langchain-groq>=0.3.7
 groq>=0.2.0
 langgraph>=0.0.25
 python-dotenv>=1.1.1
-
-# LangChain memory
-faiss-cpu>=1.7.4  # for optional vector memory (small)
-
-# Optional image generation (local)
+faiss-cpu>=1.7.4
 diffusers>=0.19.0
 transformers>=4.30.0
 accelerate>=0.20.0
 safetensors>=0.3.0
-torch>=2.2.0  # choose appropriate build for your CUDA
-
-# Utilities
+torch>=2.2.0
 typing-extensions>=4.5.0
 pillow>=9.0.0
 requests>=2.28.0
