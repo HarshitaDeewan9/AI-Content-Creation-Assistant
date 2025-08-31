@@ -1,4 +1,5 @@
 AI Content Creation Assistant:
+
 A Generative AI-powered assistant built with Streamlit, LangChain, LangGraph, and Hugging Face model. It supports:
 - Text generation using open-source LLM (via Groq API).
 - Image generation using Hugging Face model.
